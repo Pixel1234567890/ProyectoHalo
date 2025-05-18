@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Galería de Personajes - Halo</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: #fff;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #0ff;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .card {
+      background-color: #222;
+      border: 1px solid #0ff;
+      border-radius: 10px;
+      overflow: hidden;
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100%;
+      height: 350px;
+    }
+    .card h3 {
+      margin: 10px 0;
+      color: #0ff;
+    }
+    .card p {
+      font-size: 14px;
+      padding: 0 10px 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Galería de Personajes - HALO</h1>
+
+  <div class="gallery">
+    <div class="card">
+      <img src="img/Mastercheetos.jpg">
+      <h3>Master Chief</h3>
+      <p>El supersoldado más famoso del universo Halo, también conocido como John-117.</p>
+    </div>
+
+    <div class="card">
+      <img src="img/cortana.jpg" width="100" alt="Cortana">
+      <h3>Cortana</h3>
+      <p>La IA avanzada que ayuda al Jefe Maestro en su lucha contra el Covenant y más allá.</p>
+    </div>
+
+    <div class="card">
+      <img src="img/inquisidor2.jpg" alt="The Arbiter">
+      <h3>El Inquisidor</h3>
+      <p>Un antiguo comandante Elite del Covenant que se convierte en aliado de los humanos.</p>
+    </div>
+
+    <div class="card">
+      <img src="img/atriox.jpg" alt="Atriox">
+      <h3>Atriox</h3>
+      <p>Líder de los Desterrados, un enemigo formidable introducido en Halo Wars 2.</p>
+    </div>
+    </div>
+    <div class="gallery">
+    <div class="card">
+      <img src="img/elite.jpg">
+      <h3>Elites</h3>
+      <p>Tropa de asalto, de las especies mas reconocidas de la franquisia</p>
+    </div>
+    <div class="card">
+      <img src="img/brute.jpg">
+      <h3>Brutes</h3>
+      <p>Son la fuerza bruta de el covenant y fueron los que remplazaron a los eliytes cuando traicionaron al covenant</p>
+    </div>
+    <div class="card">
+      <img src="img/Grunt.jpg">
+      <h3>Grunts</h3>
+      <p>Tropa de asalto, de las especies mas reconocidas de la franquisia</p>
+    </div>
+    <div class="card">
+      <img src="img/jackal.jpg">
+      <h3>Jackals</h3>
+      <p>Tropa de asalto, de las especies mas reconocidas de la franquisia</p>
+  </div>
+</div>
+<a href="Index.html">
+  <img align="right" src="img/exit.jpg" height="300">
+  </a>
+</body>
+</html>
